@@ -30,14 +30,14 @@ Open the HTML File:
 
 Open index.html in your preferred web browser to view the photo gallery.
 
-**Interactivity:
+**Interactivity:**
 Explore any interactive overlays or effects added to the photos.
 Customization
-**Adding Photos:
+**Adding Photos:**
 Add your photos to the images directory.
 Update the HTML dynamically to include new thumbnail images.
 
-**Styling:
+**Styling:**
 Customize the appearance of the gallery by modifying the CSS file (styles/style.css).
 
 ## Challenges
