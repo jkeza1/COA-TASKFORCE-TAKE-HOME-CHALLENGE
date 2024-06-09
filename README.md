@@ -50,9 +50,12 @@ In this challenge, you'll implement the hasSubarrayWithTargetSum function, a pow
 The hasSubarrayWithTargetSum function takes two parameters:
 
 **arr:** An array of integers.
+
 **target:** The target sum value.
 
-It returns true if there exists a subarray whose elements sum up to the target value. Otherwise, it returns false.
+It returns true if there exists a subarray whose elements sum up to the target value. 
+
+Otherwise, it returns false.
 
 # Example Usage:
 ```bash
