@@ -44,7 +44,8 @@ Customize the appearance of the gallery by modifying the CSS file (styles/style.
 ## Challenges
 
  ## Challenge 1: Array Manipulation
-Overview
+# Overview
+
 In this challenge, you'll implement the hasSubarrayWithTargetSum function, a powerful tool to determine whether a contiguous subarray within an array sums up to a specified target value.
 
 # Function Description
@@ -65,7 +66,8 @@ const target = 17;
 console.log(hasSubarrayWithTargetSum(arr, target)); // Output: true
 ```
 ## Challenge 2: String Transformation
-Overview
+# Overview
+
 In this challenge, you'll implement the transformString function, a versatile tool for transforming strings based on specific rules.
 
 # Function Description
