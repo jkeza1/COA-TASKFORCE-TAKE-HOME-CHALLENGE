@@ -1,22 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
     const images = [
         {
-            src: 'fennex fox.png',
+            src: 'images/fennex fox.png',
             title: 'Fennec Fox',
             location: 'India'
         },
         {
-            src: 'dtv8qfwp.png',
+            src: 'images/dtv8qfwp.png',
             title: 'Humpback Whale',
             location: 'South Africa'
         },
         {
-            src: 'brown caboon.png',
+            src: 'images/brown caboon.png',
             title: 'Common Brown Baboon',
             location: 'South Africa'
         },
         {
-            src: 'j7rkrnv8.png',
+            src: 'images/j7rkrnv8.png',
             title: 'Spotted Deer',
             location: 'Amazon'
         }
