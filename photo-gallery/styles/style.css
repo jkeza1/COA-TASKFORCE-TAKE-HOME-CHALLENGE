@@ -76,10 +76,6 @@ body {
     pointer-events: none; /* Prevents overlay from being clicked */
 }
 
-.gallery-item:hover {
-    transform: scale(1.05);
-}
-
 .gallery-item:hover img {
     opacity: 0.7;
     filter: blur(2px); /* Adding blur effect on hover */
