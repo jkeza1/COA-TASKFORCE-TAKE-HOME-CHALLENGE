@@ -41,7 +41,8 @@ Update the HTML dynamically to include new thumbnail images.
 Customize the appearance of the gallery by modifying the CSS file (styles/style.css).
 
 ## Challenges
-Challenge 1: Array Manipulation
+
+ ## Challenge 1: Array Manipulation
 Overview
 In this challenge, you'll implement the hasSubarrayWithTargetSum function, a powerful tool to determine whether a contiguous subarray within an array sums up to a specified target value.
 
