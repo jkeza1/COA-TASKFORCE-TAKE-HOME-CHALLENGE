@@ -26,13 +26,14 @@ git clone https://github.com/jkeza1/COA-TASKFORCE-TAKE-HOME-CHALLENGE.git
 ```bash
 cd photo gallery
 ```
-Open the HTML File:
+# Open the HTML File:
 
 Open index.html in your preferred web browser to view the photo gallery.
 
 **Interactivity:**
 Explore any interactive overlays or effects added to the photos.
 Customization
+
 **Adding Photos:**
 Add your photos to the images directory.
 Update the HTML dynamically to include new thumbnail images.
