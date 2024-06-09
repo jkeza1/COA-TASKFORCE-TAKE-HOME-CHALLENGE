@@ -37,6 +37,59 @@ cd photo gallery
 - **Styling:**
 - Customize the appearance of the gallery by modifying the CSS file (`styles/style.css`).
 
+  ## challenge1-Array Manipulation
+
+## Overview
+
+Welcome to the Subarray with Target Sum README! This document provides an in-depth explanation of the `hasSubarrayWithTargetSum` function, a powerful tool to determine whether a contiguous subarray within an array sums up to a specified target value.
+
+## Function Description
+
+The `hasSubarrayWithTargetSum` function takes two parameters:
+- `arr`: An array of integers.
+- `target`: The target sum value.
+
+It returns `true` if there exists a subarray whose elements sum up to the target value. Otherwise, it returns `false`.
+
+## Algorithm: Sliding Window Technique
+
+The function employs the efficient sliding window technique to search for the subarray. Here's how it works:
+1. Initialize two pointers: `start` and `end`.
+2. Iterate through the array with the `end` pointer, adding elements to the current sum.
+3. While the current sum exceeds the target value, shrink the window from the left by incrementing the `start` pointer and subtracting the element at the `start` index from the current sum.
+4. Check if the current sum equals the target value. If so, return `true`.
+5. If the loop completes without finding a matching subarray, return `false`.
+
+## Example Usage
+
+```javascript
+const arr = [4, 2, 7, 1, 9, 5];
+const target = 17;
+console.log(hasSubarrayWithTargetSum(arr, target)); // Output: true
+## Example Usage
+
+To illustrate the usage of the `hasSubarrayWithTargetSum` function, consider the following example:
+
+```javascript
+const arr = [4, 2, 7, 1, 9, 5];
+const target = 17;
+console.log(hasSubarrayWithTargetSum(arr, target)); // Output: true
+```
+Setup Instructions
+Ready to utilize this powerful function in your projects? Follow these simple steps:
+
+Copy Function:
+Copy the hasSubarrayWithTargetSum function code provided in the README or directly from your preferred source.
+
+Paste into Your Project:
+Paste the copied function into your JavaScript project file or script.
+
+Call the Function:
+Use the function in your code by passing an array of integers and the target sum value as parameters.
+
+Run Your Code:
+Execute your JavaScript code to verify the functionality of the hasSubarrayWithTargetSum function.
+
 
 
 
