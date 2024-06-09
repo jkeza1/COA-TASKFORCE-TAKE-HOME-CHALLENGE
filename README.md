@@ -90,6 +90,38 @@ Use the function in your code by passing an array of integers and the target sum
 Run Your Code:
 Execute your JavaScript code to verify the functionality of the hasSubarrayWithTargetSum function.
 
+## challenge2-String Transformation
+# String Transformation README
+
+## Overview
+
+Welcome to the String Transformation README! This document provides an overview of the `transformString` function, a versatile tool for transforming strings based on specific rules.
+
+## Function Description
+
+The `transformString` function takes a string (`input`) as its parameter and applies transformation rules based on the length of the input string. Here are the rules:
+
+1. If the length of the string is divisible by 3, reverse the entire string.
+2. If the length of the string is divisible by 5, replace each character with its ASCII code.
+3. If the length of the string is divisible by both 3 and 5, perform both operations in the order specified above.
+
+## Algorithm
+
+The function determines whether to reverse the string, replace characters with ASCII codes, or perform both operations based on the length of the input string. Here's a brief overview of the algorithm:
+
+1. Calculate the length of the input string.
+2. Determine if the length is divisible by 3 and/or 5.
+3. Apply the transformation rules accordingly:
+   - If divisible by 3, reverse the string.
+   - If divisible by 5, replace characters with ASCII codes.
+   - If divisible by both 3 and 5, reverse the string first, then replace characters with ASCII codes.
+
+## Example Usage
+
+```javascript
+console.log(transformString("Hamburger")); // Output: "regrubmaH"
+console.log(transformString("Pizza")); // Output: "80 105 122 122 97"
+console.log(transformString("Chocolate Chip Cookie")); // Output: "eikooCpihCetalocohC"
 
 
 
