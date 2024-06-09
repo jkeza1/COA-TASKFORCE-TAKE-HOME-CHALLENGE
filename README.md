@@ -21,6 +21,7 @@ The Photo Gallery application allows users to browse through a collection of pho
 1. **Clone the Repository:**
 ```bash
 git clone https://github.com/jkeza1/COA-TASKFORCE-TAKE-HOME-CHALLENGE.git
+```
 2. Navigate to the Project Directory:
 ```bash
 cd photo gallery
