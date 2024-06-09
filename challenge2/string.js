@@ -1,38 +1,27 @@
-// Function to transform the string based on given rules
-function transformString(str) {
-    const length = str.length;
+function transformString(input) {
+    // Check if the length of the string is divisible by 3
+    const isDivisibleBy3 = input.length % 3 === 0;
+    // Check if the length of the string is divisible by 5
+    const isDivisibleBy5 = input.length % 5 === 0;
 
-    if (length % 15 === 0) {
-        // Perform both operations: reverse and then ASCII code
-        str = str.split('').reverse().join(''); // Reverse the string
-        str = str.split('').map(char => char.charCodeAt(0)).join(' '); // Replace each character with its ASCII code
-    } else if (length % 5 === 0) {
-        // Replace each character with its ASCII code
-        str = str.split('').map(char => char.charCodeAt(0)).join(' ');
-    } else if (length % 3 === 0) {
+    // If the length is divisible by both 3 and 5, perform both operations
+    if (isDivisibleBy3 && isDivisibleBy5) {
         // Reverse the entire string
-        str = str.split('').reverse().join('');
+        input = input.split('').reverse().join('');
+        // Replace each character with its ASCII code
+        input = input.split('').map(char => char.charCodeAt(0)).join(' ');
+    } else if (isDivisibleBy3) {
+        // If divisible by 3, reverse the string
+        input = input.split('').reverse().join('');
+    } else if (isDivisibleBy5) {
+        // If divisible by 5, replace each character with its ASCII code
+        input = input.split('').map(char => char.charCodeAt(0)).join(' ');
     }
 
-    return str;
+    return input;
 }
 
-// Function to display the output
-function displayOutput(inputStr) {
-    const outputDiv = document.getElementById('output');
-    const result = transformString(inputStr);
-
-    const container = document.createElement('div');
-    const heading = document.createElement('h3');
-    heading.textContent = `Input: ${inputStr}`;
-    const paragraph = document.createElement('p');
-    paragraph.textContent = `Output: ${result}`;
-
-    container.appendChild(heading);
-    container.appendChild(paragraph);
-    outputDiv.appendChild(container);
-}
-
-// Example usage
-const examples = ["Hamburger", "Pizza", "Chocolate Chip Cookie"];
-examples.forEach(example => displayOutput(example));
+// Test cases
+console.log(transformString("Hamburger")); // Output: "regrubmaH"
+console.log(transformString("Pizza")); // Output: "80 105 122 122 97"
+console.log(transformString("Chocolate Chip Cookie")); // Output: "eikooCpihCetalocohC"
